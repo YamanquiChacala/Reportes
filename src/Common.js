@@ -38,7 +38,7 @@ function onHomepage(e) {
 /**
  * Creates a card with an image of a cat, overlayed with the text.
  * @param {String} text The text to overlay on the image.
- * @param {Boolean} isHomepage True if the card created here is a homepage;
+ * @param {Boolean} [isHomepage] True if the card created here is a homepage;
  *      false otherwise. Defaults to false.
  * @return {GoogleAppsScript.Card_Service.Card} The assembled card.
  */
